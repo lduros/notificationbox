@@ -31,7 +31,7 @@ It implements the following options:
           - CRITICAL_HIGH
           - CRITICAL_BLOCK
     - buttons: array of buttons to appear on the notification.
-
+      You can use the following options:
         - accessKey: the accesskey to appear on the button
         - onClick: the callback function to trigger when button is activated.
         - label: the text to display on the button
