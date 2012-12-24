@@ -37,9 +37,9 @@ It implements the following options:
         - label: the text to display on the button
 
 Here is an overview of what the example above with the critical notification looks like:
-![The Critical notification](images/critical-notification.png)
+![The Critical notification](doc/images/critical-notification.png)
 
 When using 'INFO_LOW' for the priority instead, you would see:
-![Info Low notification](images/info-low-notification.png)
+![Info Low notification](doc/images/info-low-notification.png)
 
 For more information on notificationbox: https://developer.mozilla.org/en-US/docs/XUL/notificationbox
