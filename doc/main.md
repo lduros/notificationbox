@@ -1,7 +1,7 @@
 NotificationBox implements some of the notificationbox element functionality in Firefox and Mozilla-based browsers using the Addon SDK. For any question or feedback please email lduros--at--member.fsf.org
 
 You can create a notification as follows:
-    var self = require("self");
+```    var self = require("self");
     var notification = require("notification-box").NotificationBox({
       'value': 'important-message',
       'label': 'This is a very important message!',
@@ -10,6 +10,7 @@ You can create a notification as follows:
       'buttons': [{'label': "Do something about it!",
                   'onClick': function () { console.log("You clicked the important button!"); }}]
     });
+```
 
 It implements the following options:
 
