@@ -36,10 +36,11 @@ It implements the following options:
         - onClick: the callback function to trigger when button is activated.
         - label: the text to display on the button
 
+
 Here is an overview of what the example above with the critical notification looks like:
-![The Critical notification](/doc/images/critical-notification.png)
+![The Critical notification](https://raw.github.com/lduros/notificationbox/master/doc/images/critical-notification.png)
 
 When using 'INFO_LOW' for the priority instead, you would see:
-![Info Low notification](/doc/images/info-low-notification.png)
+![Info Low notification](https://raw.github.com/lduros/notificationbox/master/doc/images/info-low-priority.png)
 
 For more information on notificationbox: https://developer.mozilla.org/en-US/docs/XUL/notificationbox
