@@ -7,6 +7,10 @@ var notification = require("notification-box").NotificationBox({
   'value': 'important-message',
   'label': 'This is a very important message!',
   'priority': 'CRITICAL_BLOCK',
+  // Automatically close notification in 5s
+  'timeout': 5000, 
+  // How many page changes the notification will stay active for
+  'persistence': 2,
   'image': self.data.url("gnu-icon.png"),
   'buttons': [{'label': "Do something about it!",
               'onClick': function () { console.log("You clicked the important button!"); }}]
@@ -19,6 +23,9 @@ It implements the following options:
     - label: label to appear on the notification
     - image: URL of image to appear on the notification. You can also
       load a local image from the data folder, like in the example
+    - timeout: How many milliseconds until the notification will automatically close
+    - persistence: How many page changes the notification will stay active for
+    - eventCallback: Function to call when notification closes (arg1: reason)
     - priority: notification priority. Use one of the following:
           - INFO_LOW
           - INFO_MEDIUM
