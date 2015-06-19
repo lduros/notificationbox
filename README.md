@@ -2,4 +2,4 @@ NotificationBox implements some of the notificationbox element functionality in 
 
 It is released under the MPL 2.0.
 
-See [doc/main.md](https://github.com/lduros/notificationbox/blob/master/doc/main.md)for more information.
+See [doc/main.md](https://github.com/lduros/notificationbox/blob/master/doc/main.md) for more information.
