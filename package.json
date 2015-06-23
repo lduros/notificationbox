@@ -1,8 +1,8 @@
 {
     "name": "notification-box", 
     "license": "MPL 2.0", 
-    "author": "", 
-    "version": "0.1", 
+    "author": "Loic Duros",
+    "version": "0.1.1",
     "fullName": "notification-box", 
     "id": "jid1-dyFGGJB0CjoDMA", 
     "description": "a basic add-on"
